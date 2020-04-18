@@ -1,0 +1,354 @@
+@font-face {
+    font-family: BebasNeueRegular;
+    src: url('../fonts/BebasNeue Regular.otf');
+}
+
+@font-face {
+    font-family: SifonnBasic;
+    src: url('../fonts/SIFONN_BASIC.otf');
+}
+
+@font-face {
+    font-family: MontserratLight;
+    src: url('../fonts/Montserrat-Light.otf');
+}
+
+@font-face {
+    font-family: BebasNeueLight;
+    src: url('../fonts/BebasNeue Light.otf');
+}
+
+h1 {
+    font-size: /* 85px */ 6.5em;
+    font-family: "SifonnBasic", “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0.3em;
+
+}
+
+h2 {
+    font-size: /* 50px */ 3.75em;
+    font-family: "SifonnBasic", “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+h3 {
+    font-size: /* 40px */ 2.75em;
+    font-family: "SifonnBasic", “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 40px;
+
+}
+
+h4 {
+    font-size: /* 30px */ 2.15em;
+    font-family: "BebasNeueRegular", “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+
+h5 {
+    font-size: /* 18px */ 1.5em;
+    font-family: "BebasNeueRegular", “Segoe UI”, “Roboto”, “Oxygen”,
+    “Ubuntu”, “Cantarell”, “Fira Sans”,
+    “Droid Sans”, “Helvetica Neue”, sans-serif;
+    color: #747474;
+
+}
+
+p {
+    color: #747474;
+    font-size: 18px;
+    line-height: 26px;
+    font-family: "MontserratLight";
+    margin-top:8px;
+    margin-bottom: 8px;
+}
+
+p a {
+    transition: color 0.2s linear;
+}
+
+p a:hover, p a:focus {
+    color: #c3151c;
+}
+
+a {
+    color: #1792A7;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+
+a:hover, a:focus {
+    color: black;
+    text-decoration: none
+}
+
+html {
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.71428571;
+    color: black;
+    background-color: #fff;
+}
+
+.resourcetitle1 {
+    font-family: BebasNeueLight;
+}
+
+.resourcetitle2 {
+    color: black;
+    text-align: right;
+    margin-bottom: 1em;
+}
+
+.conftitle {
+    font-size: 20px;
+    font-family: "SifonnBasic";
+    text-transform: uppercase;
+    display: block;
+    letter-spacing: 5px;
+    color: #bbb;
+    padding: 10px;
+}
+
+.inversetitle {
+    font-size: 60px;
+    color: white;
+    background-color: #1792A7;
+    display: block;
+    padding: 40px;
+    margin: none;
+}
+
+.inversetitlesmall {
+    font-size: 30px;
+    color: white;
+    background-color: #bbb;
+    display: block;
+    padding: 10px;
+}
+
+.inversebody h2 {
+    text-align: left;
+    padding-top: none;
+}
+
+.inversebody p {
+    color: #73BDCA;
+}
+
+.sthumb h2 {
+    font-size: 2.2em;
+    letter-spacing: 0.2em;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
+
+.member h4 {
+    font-family: "BebasNeueRegular";
+    font-size: 4.5em;
+}
+
+.member h5 {
+    font-family: "BebasNeueLight";
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.thumb h2 {
+    font-size: 1vw;
+    letter-spacing: 0.2em;
+    margin: none;
+    padding: .25vh;
+}
+
+.thumb h5 {
+    text-align: center;
+    letter-spacing: 0.1em;
+    font-size: 1.25vw;
+}
+
+.thumb p {
+    font-size: 1.75vh;
+    line-height: 1.5vh;
+}
+
+.secemail {
+    font-size: 100em;
+}
+
+@media (min-width: 768px) {
+    .lead {
+        font-size: 21px
+    }
+}
+
+@media (max-width: 1240px) {
+    .hometitle {
+        font-size: 64px;
+    }
+}
+
+@media (max-width: 1056px) {
+
+    .hometitle {
+        font-size: 42px;
+        margin-top: 120px;
+    }
+
+    .titletext {
+        font-size: 22px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .conftitle {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .hometitle {
+        font-size: 24px;
+    }
+
+    #countdown {
+        font-size: 28px;
+    }
+
+    .conftitle {
+        font-size: 12px !important;
+        letter-spacing: 3px !important;
+    }
+
+    h1 {
+        font-size: /* 85px */ 3.5em !important;
+        padding: 0.1em;
+
+    }
+
+    h2 {
+        font-size: /* 50px */ 2em !important;
+        padding-top: 20px;
+        padding-bottom: 30px;
+
+    }
+
+    h3 {
+        font-size: /* 40px */ 1.5em !important;
+        padding-top: 15px;
+        padding-bottom: 20px;
+
+    }
+
+    h4 {
+        font-size: /* 30px */ 1em !important;
+        letter-spacing: 1px;
+
+    }
+
+    h5 {
+        font-size: /* 18px */ .75em !important;
+
+    }
+
+    p {
+        font-size: 1.1em !important;
+        line-height: 16px !important;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .conftitle {
+        font-size: 12px !important;
+        letter-spacing: 2px !important;
+    }
+
+    h1 {
+        font-size: /* 85px */ 2em !important;
+        font-family: "SifonnBasic";
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0.07em;
+
+    }
+
+    h2 {
+        font-size: /* 50px */ 1.9em !important;
+        font-family: "SifonnBasic";
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 22px;
+        padding-bottom: 30px;
+
+    }
+
+    h3 {
+        font-size: /* 40px */ 1.8em !important;
+        font-family: "SifonnBasic";
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 5px;
+        padding-bottom: 10px;
+
+    }
+
+    h4 {
+        font-size: /* 30px */ 1.7em !important;
+        font-family: "BebasNeueRegular";
+        letter-spacing: 1px;
+        text-align: center;
+
+    }
+
+    h5 {
+        font-size: /* 18px */ 1.5em !important;
+        font-family: "BebasNeueRegular";
+        color: #747474;
+
+    }
+
+    p {
+        font-size: 1.2em !important;
+        line-height: 18px !important;
+    }
+}
+
+@media (max-width: 400px) {
+
+    .conftitle {
+        font-size: 9px !important;
+        letter-spacing: 1px !important;
+        padding: 12px !important;
+    }
+}
